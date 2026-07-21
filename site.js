@@ -2,7 +2,7 @@
 (function () {
   "use strict";
   var ORDER = "https://sayhi-thainoodlebar.cloveronline.com.au/menu/all";
-  var IG = "https://www.instagram.com/sayhi_market/";
+  var IG = "https://www.instagram.com/sayhi_buree/";
   var FB = "https://www.facebook.com/Sayhiburi/";
   var LINKS = "https://linktr.ee/sayhi.community";
   var page = document.body.getAttribute("data-page") || "";
@@ -64,7 +64,7 @@
       '<div class="wrap"><div class="ftr__top">' +
         '<div class="ftr__brand"><img src="assets/images/logo.png" alt="Say Hi" />' +
           '<p>สหาย — "friend." Thai street-food & boat noodles, hidden down a laneway in Brisbane CBD.</p></div>' +
-        '<div><h4>Visit</h4><a href="visit.html">123 Charlotte St</a><a href="visit.html">Brisbane City QLD</a><a href="visit.html">Open 11am–7:30pm</a></div>' +
+        '<div><h4>Visit</h4><a href="visit.html">123 Charlotte St</a><a href="visit.html">Brisbane City QLD</a><a href="visit.html">Mon–Sat 11am–8pm · Sun 10am–6pm</a></div>' +
         '<div><h4>Explore</h4><a href="menu.html">Menu</a><a href="story.html">Our story</a><a href="market.html">Say Hi Market</a></div>' +
         '<div><h4>Order &amp; Follow</h4><a href="' + ORDER + '" target="_blank" rel="noopener">Order online →</a><a href="' + IG + '" target="_blank" rel="noopener">Instagram →</a><a href="' + FB + '" target="_blank" rel="noopener">Facebook →</a><a href="' + LINKS + '" target="_blank" rel="noopener">All our links →</a></div>' +
       "</div>" +
@@ -130,8 +130,12 @@
       "geo": { "@type": "GeoCoordinates", "latitude": -27.4705, "longitude": 153.0260 },
       "openingHoursSpecification": [{
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-        "opens": "11:00", "closes": "19:30"
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "11:00", "closes": "20:00"
+      }, {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday"],
+        "opens": "10:00", "closes": "18:00"
       }],
       "menu": ORDER,
       "hasMenu": ORDER,

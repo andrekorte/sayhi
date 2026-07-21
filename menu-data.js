@@ -9,7 +9,7 @@ window.SAYHI_MENU = [
     items: [
       { name: "No.1 Boat Noodles", desc: "Signature rich, dark broth.", price: "18.99", hot: true, img: "assets/images/bowl-boat.jpg" },
       { name: "No.2 Pinky Noodle (Yen Ta Fo)", desc: "Tangy pink seafood soup.", price: "18.99", img: "assets/images/bowl-yentafo.jpg" },
-      { name: "No.3 Spicy & Sour Soup", desc: "Bright, punchy, hot & sour.", price: "18.99", img: "assets/images/bowl-spicysour.jpg" },
+      { name: "No.3 Spicy & Sour Soup", desc: "Bright, punchy, hot & sour.", price: "18.99", img: "assets/images/bowl-spicysour.jpg", order: "https://sayhi-thainoodlebar.cloveronline.com.au/menu/no3-spicy-and-sour-soup-M4J457JRPZJKA" },
       { name: "No.4 Creamy Tom Yum Soup", desc: "Hot, sour, creamy, addictive.", price: "18.99", hot: true, img: "assets/images/bowl-tomyum.jpg" },
       { name: "No.5 Dry Noodle Soy Sauce", desc: "Noodles tossed, no soup.", price: "18.99", img: "assets/images/bowl-dry.jpg" },
       { name: "No.6 Clear Noodle Soup", desc: "Light, clean, comforting.", price: "18.99", img: "assets/images/bowl-clear.jpg" },
