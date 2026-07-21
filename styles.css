@@ -27,9 +27,9 @@
   --shadow:   0 18px 40px rgba(36,24,18,.14);
   --shadow-sm:0 8px 20px rgba(36,24,18,.12);
 
-  --display: "Fraunces", Georgia, serif;
-  --body:    "Space Grotesk", system-ui, sans-serif;
-  --hand:    "Caveat", cursive;
+  --display: "Manrope", system-ui, sans-serif;
+  --body:    "Manrope", system-ui, sans-serif;
+  --hand:    "Manrope", system-ui, sans-serif;
 
   --r:       20px;
   --nav-h:   68px;
@@ -51,7 +51,7 @@ body{
 }
 /* full-width Thai-flag bunting strip */
 .bunting{ height:16px; background:var(--bunting) repeat-x top center; background-size:48px 16px; }
-h1,h2,h3,h4{ font-family:var(--display); font-weight:600; line-height:1.05; margin:0; font-optical-sizing:auto; }
+h1,h2,h3,h4{ font-family:var(--display); font-weight:700; line-height:1.08; margin:0; letter-spacing:-.015em; }
 a{ color:inherit; }
 img{ max-width:100%; display:block; }
 .wrap{ max-width:var(--wrap); margin:0 auto; padding-inline:clamp(1.1rem,4vw,2.5rem); }
@@ -149,8 +149,8 @@ section{ position:relative; }
   padding-block:clamp(3rem,7vw,5.5rem); position:relative; z-index:2; }
 .hero__eyebrow{ display:inline-block; font-weight:700; letter-spacing:.15em; text-transform:uppercase; font-size:.8rem;
   color:var(--red-deep); background:var(--gold); padding:.4em 1em; border-radius:100px; transform:rotate(-2deg); }
-.hero__title{ font-size:clamp(3rem,8vw,6rem); line-height:.95; margin:1rem 0 .4rem; color:var(--ink); }
-.hero__title em{ font-style:italic; color:var(--red); }
+.hero__title{ font-size:clamp(3rem,8vw,6rem); font-weight:800; line-height:.98; margin:1rem 0 .4rem; color:var(--ink); }
+.hero__title em{ font-style:normal; color:var(--red); }
 .hero__thai{ display:block; font-family:var(--body); font-weight:500; letter-spacing:.3em; color:var(--gold-ink); font-size:1rem; margin-top:.6rem; }
 .hero__tag{ font-size:clamp(1.05rem,2.2vw,1.3rem); max-width:38ch; color:var(--muted); margin:1.2rem 0 2rem; }
 .hero__tag b{ color:var(--red); font-weight:600; }
@@ -166,7 +166,7 @@ section{ position:relative; }
 /* ---------- MARQUEE ---------- */
 .marquee{ background:var(--red); color:var(--gold-hi); overflow:hidden; border-block:2px solid var(--gold); }
 .marquee__track{ display:flex; width:max-content; animation:scroll 28s linear infinite; }
-.marquee__track span{ font-family:var(--display); font-weight:500; font-style:italic; font-size:1.35rem; padding:.55rem 0; white-space:nowrap; }
+.marquee__track span{ font-family:var(--display); font-weight:600; font-style:normal; font-size:1.3rem; letter-spacing:.01em; padding:.55rem 0; white-space:nowrap; }
 .marquee__track span b{ color:var(--gold-2); font-style:normal; padding:0 .5rem; }
 @keyframes scroll{ to{ transform:translateX(-50%) } }
 
