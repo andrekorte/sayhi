@@ -1,0 +1,10 @@
+# Build artifact (regenerated on deploy)
+sayhi-site.zip
+*.zip
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Local editor / Claude config
+.claude/

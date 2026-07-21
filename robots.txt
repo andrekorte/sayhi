@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace REPLACE-WITH-YOUR-DOMAIN with your real domain once you have one.
+Sitemap: https://REPLACE-WITH-YOUR-DOMAIN/sitemap.xml
