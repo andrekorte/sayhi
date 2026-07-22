@@ -55,7 +55,7 @@ window.SAYHI_MENU = [
     id: "drinks", label: "Thai Drinks", emoji: "🧋",
     items: [
       { name: "Thai Milk Tea (Large)", desc: "The classic. Sweet & strong.", price: "9.00", hot: true, img: "assets/images/drink-thaitea.jpg" },
-      { name: "Thai Milk Tea (Medium)", desc: "", price: "7.00" },
+      { name: "Thai Milk Tea (Medium)", desc: "", price: "7.00", img: "assets/images/drink-thaitea.jpg" },
       { name: "Thai Tea — Cloud Coconut", desc: "Topped with coconut cloud.", price: "7.00", img: "assets/images/drink-cloudcoconut.jpg" },
       { name: "Thai Lemon Tea", desc: "", price: "7.00", img: "assets/images/drink-lemontea.jpg" },
       { name: "Red Lemonade", desc: "", price: "7.00", img: "assets/images/drink-redlemon.jpg" },
