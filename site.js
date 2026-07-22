@@ -140,6 +140,7 @@
       "menu": ORDER,
       "hasMenu": ORDER,
       "acceptsReservations": "False",
+      "telephone": "+61 406 287 869",
       "sameAs": [IG, FB, LINKS]
     };
     var s = document.createElement("script");
