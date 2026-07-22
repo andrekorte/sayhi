@@ -1,7 +1,7 @@
 /* Say Hi — menu data, mirrored from the live Clover order page.
    img paths are relative to the site root (assets/images/...).
    Update prices/availability here; the live order page stays the
-   real-time source of truth. Set available:false to grey an item out. */
+   real-time source of truth for pricing & availability. */
 window.SAYHI_MENU = [
   {
     id: "noodles", label: "Noodle Soups", emoji: "🍜",
@@ -27,7 +27,7 @@ window.SAYHI_MENU = [
       { name: "Chicken Meatballs", desc: "On skewers.", price: "7.00", img: "assets/images/ent-meatballs.jpg" },
       { name: "Pork Meatballs", desc: "On skewers.", price: "7.00" },
       { name: "Beef Meatballs", desc: "On skewers.", price: "7.00" },
-      { name: "Moo Ping Sticky Rice Set", desc: "Pork skewers + sticky rice.", price: "12.99", available: false, img: "assets/images/ent-mooping-set.jpg" },
+      { name: "Moo Ping Sticky Rice Set", desc: "Pork skewers + sticky rice.", price: "12.99", img: "assets/images/ent-mooping-set.jpg" },
       { name: "Thai Sticky Rice", desc: "", price: "3.00", img: "assets/images/sticky-rice.jpg" }
     ]
   },
@@ -61,7 +61,7 @@ window.SAYHI_MENU = [
       { name: "Red Lemonade", desc: "", price: "7.00", img: "assets/images/drink-redlemon.jpg" },
       { name: "Strawberry Magic", desc: "", price: "7.00", img: "assets/images/drink-strawberry.jpg" },
       { name: "Green Grape Soda", desc: "", price: "7.00", img: "assets/images/drink-grape.jpg" },
-      { name: "Dirty Coke", desc: "Coke + secrets.", price: "7.00", available: false, img: "assets/images/drink-dirtycoke.jpg" },
+      { name: "Dirty Coke", desc: "Coke + secrets.", price: "7.00", img: "assets/images/drink-dirtycoke.jpg" },
       { name: "Blue Sky Soda", desc: "", price: "7.00", img: "assets/images/drink-bluesky.jpg" },
       { name: "Yakult Pop", desc: "", price: "7.00" },
       { name: "Sour Plum Soda", desc: "", price: "7.00" }

@@ -69,9 +69,11 @@ Every **Order Online** button links to the existing Clover shop
 stay in Clover — the current ordering flow is unchanged.
 
 ## Updating the menu
-Edit `menu-data.js`. Each item: `{ name, desc, price, hot?, available?, img? }`.
-`available:false` greys an item out; `hot:true` adds a ★. The live Clover page
-stays the source of truth for real-time availability.
+Edit `menu-data.js`. Each item: `{ name, desc, price, hot?, img?, order? }`.
+`hot:true` adds a ★; `order:` sets a per-item Clover deep link. Prices are a
+manual snapshot — the live Clover page stays the source of truth for real-time
+pricing and availability. The website intentionally shows **no "sold out" state**
+(availability changes too often to mirror by hand).
 
 ## What's real vs. to-confirm
 - ✅ Menu, prices, logo, food photos — from the brand's own logo + Clover page
