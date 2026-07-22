@@ -18,19 +18,17 @@
 
   function itemHTML(it) {
     var idx = flat.length; flat.push(it);
-    var out = it.available === false;
     var img = it.img
       ? '<img class="mitem__img" src="' + it.img + '" alt="' + esc(it.name) + '" loading="lazy" />'
       : '';
     var star = it.hot ? ' <span class="mitem__star" title="House favourite">★</span>' : '';
-    var tag = out ? ' <span class="mitem__tag">sold out</span>' : '';
     var desc = it.desc ? '<div class="mitem__desc">' + it.desc + '</div>' : '';
-    return '<div class="mitem mitem--click' + (out ? ' mitem--out' : '') +
+    return '<div class="mitem mitem--click' +
       '" role="button" tabindex="0" data-idx="' + idx + '" aria-label="View ' + esc(it.name) + '">' +
       img +
       '<div class="mitem__b">' +
         '<div class="mitem__top">' +
-          '<span class="mitem__name">' + it.name + star + tag + '</span>' +
+          '<span class="mitem__name">' + it.name + star + '</span>' +
           '<span class="mitem__dots"></span>' +
           '<span class="mitem__price">$' + it.price + '</span>' +
         '</div>' + desc +
@@ -89,15 +87,8 @@
     mPrice.textContent = "$" + it.price;
     if (it.desc) { mDesc.textContent = it.desc; mDesc.style.display = ""; }
     else { mDesc.style.display = "none"; }
-    if (it.available === false) {
-      mOrder.classList.add("is-disabled");
-      mOrder.removeAttribute("href");
-      mOrder.textContent = "Currently sold out";
-    } else {
-      mOrder.classList.remove("is-disabled");
-      mOrder.href = it.order || ORDER;
-      mOrder.textContent = "Order Online →";
-    }
+    mOrder.href = it.order || ORDER;
+    mOrder.textContent = "Order Online →";
     lastFocus = document.activeElement;
     modal.classList.add("open");
     modal.setAttribute("aria-hidden", "false");
