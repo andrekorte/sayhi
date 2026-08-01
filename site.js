@@ -4,7 +4,7 @@
   var ORDER = "https://sayhi-thainoodlebar.cloveronline.com.au/menu/all";
   var IG = "https://www.instagram.com/sayhi_buree/";
   var FB = "https://www.facebook.com/Sayhiburi/";
-  var TIKTOK = "https://www.tiktok.com/tag/sayhithainoodlebar";
+  var TIKTOK = "https://www.tiktok.com/@sayhi______";
   var page = document.body.getAttribute("data-page") || "";
 
   var links = [
@@ -141,7 +141,7 @@
       "hasMenu": ORDER,
       "acceptsReservations": "False",
       "telephone": "+61 406 287 869",
-      "sameAs": [IG, FB]
+      "sameAs": [IG, FB, TIKTOK]
     };
     var s = document.createElement("script");
     s.type = "application/ld+json";
