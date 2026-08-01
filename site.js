@@ -4,7 +4,7 @@
   var ORDER = "https://sayhi-thainoodlebar.cloveronline.com.au/menu/all";
   var IG = "https://www.instagram.com/sayhi_buree/";
   var FB = "https://www.facebook.com/Sayhiburi/";
-  var LINKS = "https://linktr.ee/sayhi.community";
+  var TIKTOK = "https://www.tiktok.com/tag/sayhithainoodlebar";
   var page = document.body.getAttribute("data-page") || "";
 
   var links = [
@@ -66,7 +66,7 @@
           '<p>สหาย — "friend." Thai street-food & boat noodles, hidden down a laneway in Brisbane CBD.</p></div>' +
         '<div><h4>Visit</h4><a href="visit.html">123 Charlotte St</a><a href="visit.html">Brisbane City QLD</a><a href="visit.html">Mon–Sat 11am–8pm · Sun 10am–6pm</a></div>' +
         '<div><h4>Explore</h4><a href="menu.html">Menu</a><a href="story.html">Our story</a><a href="market.html">Say Hi Market</a></div>' +
-        '<div><h4>Order &amp; Follow</h4><a href="' + ORDER + '" target="_blank" rel="noopener">Order online →</a><a href="' + IG + '" target="_blank" rel="noopener">Instagram →</a><a href="' + FB + '" target="_blank" rel="noopener">Facebook →</a><a href="' + LINKS + '" target="_blank" rel="noopener">All our links →</a></div>' +
+        '<div><h4>Order &amp; Follow</h4><a href="' + ORDER + '" target="_blank" rel="noopener">Order online →</a><a href="' + IG + '" target="_blank" rel="noopener">Instagram →</a><a href="' + FB + '" target="_blank" rel="noopener">Facebook →</a><a href="' + TIKTOK + '" target="_blank" rel="noopener">TikTok →</a></div>' +
       "</div>" +
       '<p class="ftr__fine">© ' + new Date().getFullYear() + ' Say Hi Thai Noodle Bar · Made with 🌶️ &amp; ❤️ in Brisbane</p></div>';
     /* Thai-flag bunting above the footer */
@@ -141,7 +141,7 @@
       "hasMenu": ORDER,
       "acceptsReservations": "False",
       "telephone": "+61 406 287 869",
-      "sameAs": [IG, FB, LINKS]
+      "sameAs": [IG, FB]
     };
     var s = document.createElement("script");
     s.type = "application/ld+json";
